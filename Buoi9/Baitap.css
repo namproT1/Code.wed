@@ -1,0 +1,50 @@
+.banner_heading{
+    font-size: 50px;
+    
+   
+    }
+.banner_sologan{
+    font-size: 15px;
+    color: rgb(158, 115, 58);
+}
+.item__heading{
+    font-size: 35px;
+
+}
+.item__head{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    width: 100%;
+    display: flex;
+}
+.main{
+    width: 50%;
+}
+.aside{
+    width: 50%;
+  
+    border-bottom: 3px solid var(--main-color);
+    margin-bottom: 30px;
+    
+}
+
+.header,
+.content{
+    margin: 10px 0px 0px 40px;
+}
+.img_id{
+    max-width: 200px;
+    height: auto;
+    }
+    
+.image{
+    max-width: 700px;
+
+    height: auto;
+}
+
+.item{
+    display:flex;
+}

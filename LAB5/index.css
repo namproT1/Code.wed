@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+  }
+  
+  /* Hình ảnh mặc định */
+  #responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Đổi hình ảnh khi kích thước màn hình lớn hơn 400px */
+  @media (min-width: 401px) {
+    #responsive-image {
+      content: url('basket-orange.jpg'); /* Giỏ cam */
+    }
+  }
+  
+  /* Đổi hình ảnh khi kích thước màn hình nhỏ hơn hoặc bằng 400px */
+  @media (max-width: 400px) {
+    #responsive-image {
+      content: url('green-vegetables.jpg'); /* Rau xanh */
+    }
+  }
+  

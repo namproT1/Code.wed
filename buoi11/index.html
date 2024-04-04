@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- gộp hành\g (row) :rowspan -->
+    <!-- gộp cột (colmn):colspan -->
+    <table>
+
+        <thead>
+        <th>STT</th>
+        <th>Họ và tên</th>
+        <th>Tuổi</th>
+        <th>Lương</th>
+       
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Vũ Ngọc Hưng</td>
+                <td>18</td>
+                <td>5.000.000</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Mai Anh Thư</td>
+                <td>17</td>
+                <td rowspan="2">2.000.000</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Đinh Văn Trìn</td>
+                <td>18</td>
+                <!-- <td>4.000.000</td> -->
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Đào Xuân Trường</td>
+                <td>18</td>
+                <td>6.000.000</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Trương Hoàng Phúc</td>
+                <td>18</td>
+                <td>7.000.000</td>
+            </tr>
+            <tr>
+                <td colspan="3">Tổng</td>
+                <td>100.000.000</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>

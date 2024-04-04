@@ -1,0 +1,132 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; 
+}
+
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+ 
+}
+
+h3 {
+    color: #333;
+    margin-top: 15px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+}
+
+.fa-calendar {
+    color: #007bff; 
+    margin-right: 5px;
+}
+
+.col-sm-3 {
+    border: 1px solid #dee2e6; 
+    padding: 20px;
+   
+}
+
+.col-sm-3:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    transition: box-shadow 0.3s ease-in-out;
+}
+.date-display {
+    display: flex; 
+    align-items: center; 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    border: 1px solid white;
+}
+
+.date-display .fas {
+    margin-right: 5px;
+    color: #007bff; 
+}
+
+.date-text {
+    font-size: 16px; 
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .heart-and-count{
+    display: flex;
+    align-items: center;
+    border: 0.2px solid white;
+    padding: 5px;
+  }
+  
+  .edu-icon {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+  }
+  
+  .edu-icon i {
+    margin-right: 5px;
+    font-size: 20px; 
+  }
+  
+  span {
+    font-size: 16px; 
+  }
+
+  .res-bangakreo {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+  }
+  
+  .res-bangakreo i {
+    margin-right: 5px; 
+    font-size: 20px; 
+  }
+  
+  .res-bangakreo span {
+    font-size: 16px; 
+  }
+  .email-container {
+    display: flex;
+    align-items: center;
+  }
+  .email-container .fas {
+    margin-right: 5px; 
+  }
+  .email-address {
+    font-size: 16px;
+  }
+  .phone-container {
+    display: flex;
+    align-items: center;
+  }
+  .phone-container .fas {
+    margin-right: 5px; 
+  }
+  .phone-number {
+    font-size: 16px;
+  }  
+.email{
+    background-color: rgb(236, 99, 99);
+    color: white;
+    border: 0.2px solid white;
+}.phone{
+    background-color: rgb(78, 237, 78);
+    color: white;
+    border: 0.2px solid white;
+}

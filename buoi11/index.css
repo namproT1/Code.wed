@@ -1,0 +1,37 @@
+table ,th , td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    width: 200px;
+    height: 40px;
+}
+/* css cho thẻ đầu tiên trong tr */
+tr td:first-child{
+    width: 20px;
+    text-align: center;
+}
+/* css cho thẻ cuối cùng trong tr*/
+tr td:last-child{
+    width: 80px;
+    text-align: center;
+}
+/* css cho thẻ thứ 3 trong tr */
+td th:nth-child(3){
+    width: 20px;
+   
+    text-align: center;
+}
+/* css cho tr vị trí cá thẻ lẻ */
+tbody tr:nth-child(even){
+    background-color: antiquewhite;
+}
+/* css cho tr vị trí thẻ chẵn */
+tbody tr:nth-child(odd){
+    background-color: rgb(164, 102, 20);
+}
+tbody tr:last-child{
+    background-color: brown;
+}
